@@ -25,6 +25,7 @@ section::after {
 #topbar a {
     text-decoration: none;
     padding-right: 10px;
+    color: #6a4162;
 }    
 #topbar li {
     display: inline;
@@ -42,11 +43,16 @@ section::after {
 #sidebar a {
     text-decoration: none;
     padding-right: 10px;
+    color: #6a4162;
 }
 
 #sidebar li {
     text-align: left;
-    
+    margin-bottom: 18px;  
+}
+
+#sidebar a:hover {
+    color: red;
 }
 
 #sidebar {
